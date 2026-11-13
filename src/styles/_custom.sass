@@ -89,12 +89,81 @@ figcaption
 .bg-color
   &-1
     background-color: $color-primario
+.fondo01
+  background-image: url('../assets/curso/temas/t1/fondo.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.subt
+  display: flex
+  align-items: center
+  position: relative  
+  width: fit-content  
+  img
+    width: 45px
+    z-index: 1
+  h3 
+    z-index: 1
+  &::before
+    content: ''
+    position: absolute
+    background-color: #AEA3BE 
+    width: 100%
+    height: 2px
+    bottom: 0px
+    z-index: 0
+  &::after
+    content: ''
+    position: absolute
+    background-color: #AEA3BE 
+    width: 100%
+    height: 4.5px
+    bottom: 4.5px
+    z-index: 0
+  @media (max-width: $bp-max-sm)
+    &::after
+      display: none
+    &::before
+      bottom: -2px
+
+.bg1
+  background-color: #B5F0FF
+.bg2
+  background-color: #FBF7CD
 
 
+.fa-chevron-right 
+  --fa: "\f054"
+  color: #FFD633
+.fa-chevron-left 
+  --fa: "\f053"
+  color: #FFD633
+.titulo-segundo:after 
+  border-left-color: #46D9FF
 
-
-
-
+.tarjeta.color-acento-botones--borde
+  background-color: #CCDCE0
+  border: #CCDCE0
+.tabs-a__tab 
+  background-color: #D6D1DF
+.tabs-a__tab   
+  display: block
+  width: 100%
+  text-align: left
+  padding: 15px 20px
+  border-radius: 5px
+  line-height: 1.2em
+  &__text
+    overflow: auto
+    text-overflow: initial
+    text-wrap: auto
 
 /**************************************************************/
 /*Media Queries*/  
