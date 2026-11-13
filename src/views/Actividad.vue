@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Cuestionario de atención al cliente y mejora de la experiencia del consumidor',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> validar la apropiación de conocimientos sobre atención al cliente, fidelización, protocolos, medición y mejora del servicio.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,477 +30,668 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            'Un cliente recibe información clara, solución oportuna y trato respetuoso. ¿Qué resultado se fortalece principalmente?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'La rotación del inventario.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'La satisfacción del cliente.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'El control de producción.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'La reducción del portafolio.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'Ante una solicitud que no puede resolverse de inmediato, ¿qué actuación favorece una atención de calidad?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Cerrar el caso sin explicación.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Transferir la responsabilidad al cliente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Informar el estado y establecer un tiempo de respuesta.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Evitar registrar la solicitud.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Qué práctica contribuye a conocer las expectativas del cliente sobre el servicio recibido?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
+              texto: 'Recopilar y analizar su retroalimentación.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Reducir los canales de contacto.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Eliminar el seguimiento posterior.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Concentrarse únicamente en las ventas.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'Si una empresa desea estandarizar la forma de atender consultas y reclamaciones, ¿qué recurso debe aplicar?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'El balance contable.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'El protocolo de atención.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'El plan de producción.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'El inventario de activos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué acción favorece la fidelización después de una compra?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+              texto: 'Finalizar todo contacto con el cliente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Cambiar continuamente las condiciones ofrecidas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
+              texto: 'Realizar seguimiento y brindar soporte postventa.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Restringir el acceso a los canales de servicio.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Un cliente realiza compras recurrentes y mantiene su preferencia por la empresa debido a experiencias positivas. ¿Qué concepto se evidencia?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'Fidelización del cliente.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Rotación de personal.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Distribución física.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Control presupuestal.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál es el propósito de analizar las reclamaciones recurrentes de los clientes?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto: 'Identificar causas y establecer acciones de mejora.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Aumentar los tiempos de respuesta.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Reducir la información disponible.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Evitar modificaciones en el servicio.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Cuando se identifica una falla frecuente en la atención, ¿qué acción corresponde a un proceso de mejora?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Mantener el procedimiento sin cambios.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Definir e implementar una acción correctiva.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Eliminar el registro de casos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Suspender la comunicación con los clientes.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué actuación es adecuada al recibir una reclamación?',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Interrumpir al cliente para responder rápidamente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Escuchar, registrar y orientar la solución del caso.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Evitar documentar la situación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Responder sin verificar la información.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Por qué es importante registrar las interacciones con los clientes?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Porque permite realizar trazabilidad y seguimiento.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Porque reemplaza la estrategia de servicio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Porque elimina la necesidad de protocolos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Porque evita medir la satisfacción.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué etapa de la relación con el cliente permite fortalecer la experiencia después de la compra?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'La atención postventa.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'El almacenamiento interno.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La producción del bien.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El cierre contable.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'Un manual de servicio al cliente debe orientar principalmente sobre:',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Políticas, procedimientos y estándares de atención.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Políticas de procesos exclusivos de fabricación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Registros tributarios de la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Políticas de valoración de inventarios.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
+        },
+        {
+          id: 13,
+          texto: '¿Qué permite identificar el análisis del ciclo del servicio?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Los puntos de interacción que influyen en la experiencia del cliente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Únicamente los costos de producción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Solo las actividades contables.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Exclusivamente la estructura organizacional.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'En un momento de verdad, ¿qué aspecto puede influir directamente en la percepción del cliente?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'La calidad de la interacción durante el contacto con la empresa.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'El número de contactos registrados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La estructura del almacén.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El método de depreciación utilizado.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál indicador aporta información para valorar la calidad de la atención?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Nivel de satisfacción del cliente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Cantidad de maquinaria instalada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Valor de los activos fijos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Número de proveedores internacionales.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
+        },
+        {
+          id: 16,
+          texto:
+            'Si una medición del servicio evidencia baja satisfacción, ¿qué debe hacer la organización?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ignorar los resultados para conservar el proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Analizar las causas y formular acciones de mejora.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar los mecanismos de medición.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir los canales de atención disponibles.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
+        },
+        {
+          id: 17,
+          texto:
+            'En el triángulo del servicio, ¿qué elemento orienta las acciones para responder a las necesidades del cliente?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La estrategia de servicio.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'El inventario de mercancías.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La estructura financiera.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El proceso de facturación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué ventaja ofrece mantener información actualizada sobre los contactos y solicitudes de un cliente?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Facilita la continuidad y personalización de la atención.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Impide realizar seguimiento a los casos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reduce la posibilidad de conocer antecedentes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Elimina la necesidad de responder solicitudes.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué práctica ayuda a prevenir la repetición de una falla detectada en el servicio?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Documentar el hallazgo y verificar la acción de mejora.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar la evidencia del caso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar comunicar el hallazgo al responsable.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cerrar el caso sin analizar su causa.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
+        },
+        {
+          id: 20,
+          texto:
+            'Una organización integra protocolos, seguimiento, medición y acciones de mejora. ¿Qué busca fortalecer con estas prácticas?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La calidad de la atención y la experiencia del cliente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'La reducción del contacto con el cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La eliminación de la retroalimentación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El aumento de los tiempos de respuesta.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia una adecuada apropiación de los contenidos relacionados con la atención al cliente, la calidad del servicio, la fidelización y la mejora de la experiencia del consumidor.',
+          mensaje_incorrecto:
+            'Se recomienda revisar los contenidos del componente formativo Atención al cliente, especialmente los relacionados con servicio, fidelización, protocolos, medición, trazabilidad y acciones de mejora.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra una adecuada apropiación de los contenidos relacionados con la atención al cliente y la calidad del servicio.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'No ha superado la actividad. Se recomienda revisar nuevamente el componente formativo Atención al cliente y realizar otro intento.',
     },
   }),
 }
