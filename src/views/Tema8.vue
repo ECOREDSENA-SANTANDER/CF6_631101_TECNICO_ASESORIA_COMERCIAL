@@ -25,8 +25,8 @@
 
     p Los momentos de verdad presentan características que permiten comprender su importancia en la prestación del servicio:
 
-    .row.justify-content-center.mb-4
-      .col-lg-3.mb-3  
+    .row.justify-content-center.mb-4(data-aos="fade-left")
+      .col-lg-3.mb-3.col-9.col-md-7
         img(src='@/assets/curso/temas/t8/img03.png', alt='')
       .col-lg-9
         TabsA.color-acento-botones
@@ -53,7 +53,7 @@
 
     p La calidad de los momentos de verdad depende de la interacción de diferentes elementos que intervienen en la prestación del servicio:
 
-    .row.justify-content-center.mb-3.bg3.g-0
+    .row.justify-content-center.mb-3.bg3.g-0(data-aos="fade-left")
       .col-lg-6.p-0
         img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t8/img05.svg', alt='')
       .col-lg-6
@@ -93,7 +93,7 @@
           h4.text-center Momentos de verdad positivos
           p.mb-0 Ocurren cuando la interacción cumple o supera las expectativas del cliente. Por ejemplo, recibir una respuesta clara y oportuna ante una solicitud de garantía.
 
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta--boton.color-primario.p-4.h-100
           .row.justify-content-center.mb-0
             .col-7.col-lg-5.mb-2
@@ -113,7 +113,7 @@
     P Es importante reconocer que un momento crítico puede tener un resultado positivo o negativo, dependiendo de la respuesta proporcionada por la organización. La identificación y evaluación de estos momentos facilita la formulación de acciones de mejora orientadas a prevenir dificultades y fortalecer la experiencia del cliente.
     P Le invitamos a visitar el pódcast, un espacio para comprender cómo la atención al cliente influye en su satisfacción, fortalece la confianza y genera oportunidades de mejora.
 
-    img(src='@/assets/curso/temas/t8/podcast.svg', alt='')
+    img(src='@/assets/curso/temas/t8/podcast.svg', alt='')(data-aos="fade-left")
     .row.justify-content-center.g-0(data-aos="fade-right")
       .col-lg-12
         .tarjeta.clr--pink.p-4.rounded-0.h-100.color-primario

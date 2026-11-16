@@ -38,7 +38,7 @@
             p Por ejemplo, en un restaurante, el servicio visible incluye la recepción del cliente, la atención del personal, la presentación del menú y la entrega de los alimentos.
 
 
-        .col-sm-9.col-lg-6.mb-4.mb-lg-0
+        .col-sm-9.col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
           .tarjeta--boton.bg2.p-4.h-100
             .row.justify-content-center.mb-3
               .col-lg-3.col-7
@@ -69,7 +69,7 @@
           p La principal diferencia entre ambos enfoques se encuentra en la manera como se organizan las actividades y se toman las decisiones. Mientras que la estructura tradicional prioriza las relaciones jerárquicas, la orientada al mercado procura articular los recursos y procesos de la empresa alrededor de la generación de valor para el cliente.
 
       separador
-      #t_1_1.titulo-segundo.mb-4
+      #t_1_1.titulo-segundo.mb-4(data-aos="fade-left")
         h2 1.1. Características de la atención al cliente
 
       p La atención al cliente presenta características que permiten comprender su funcionamiento y establecer criterios para mejorar la calidad del servicio. Estas deben considerarse durante las diferentes interacciones comerciales, teniendo en cuenta las particularidades de la organización y las necesidades de los consumidores.
@@ -114,7 +114,7 @@
       p Estas características pueden manifestarse de manera diferente según el sector económico. Por ejemplo, una empresa de servicios médicos debe priorizar la seguridad, la confidencialidad y la oportunidad; una empresa logística debe garantizar información sobre los envíos y el cumplimiento de los tiempos de entrega; mientras que un establecimiento comercial debe facilitar la orientación, la compra y la atención postventa.
 
       separador
-      #t_1_2.titulo-segundo.mb-4
+      #t_1_2.titulo-segundo.mb-4(data-aos="fade-left")
         h2 1.2. Finalidad de la atención al cliente
 
       p La finalidad de la atención al cliente es satisfacer sus necesidades y expectativas mediante interacciones efectivas que generen confianza, faciliten la solución de requerimientos y fortalezcan la relación comercial.
@@ -143,7 +143,7 @@
             .tarjeta.color-acento-botones--borde.p-4(titulo="Impulsar el mejoramiento continuo")
               p Utilizar la información obtenida durante la atención para identificar dificultades y establecer acciones correctivas o de mejora.
 
-      p En consecuencia, la atención al cliente no debe considerarse únicamente como una actividad asociada a la venta, sino como un proceso continuo que contribuye a la competitividad, la reputación y la sostenibilidad de las organizaciones.
+      p(data-aos="fade-left") En consecuencia, la atención al cliente no debe considerarse únicamente como una actividad asociada a la venta, sino como un proceso continuo que contribuye a la competitividad, la reputación y la sostenibilidad de las organizaciones.
 
 
 

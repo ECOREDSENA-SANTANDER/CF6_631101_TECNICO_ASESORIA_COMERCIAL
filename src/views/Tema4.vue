@@ -44,7 +44,7 @@
             .tarjeta.color-acento-botones--borde.p-4(titulo="Reconocimiento de la lealtad")
               p Implementar beneficios o programas que incentiven la continuidad de la relación comercial, de acuerdo con las políticas de la organización.
 
-    p Por ejemplo, una empresa comercializadora de electrodomésticos puede fortalecer la fidelización mediante el seguimiento a la entrega de los productos, la orientación sobre las garantías y la atención de solicitudes posteriores a la compra. Estas acciones permiten identificar oportunidades de mejora y fortalecer la confianza del consumidor.
+    p(data-aos="fade-left") Por ejemplo, una empresa comercializadora de electrodomésticos puede fortalecer la fidelización mediante el seguimiento a la entrega de los productos, la orientación sobre las garantías y la atención de solicitudes posteriores a la compra. Estas acciones permiten identificar oportunidades de mejora y fortalecer la confianza del consumidor.
 
 
 

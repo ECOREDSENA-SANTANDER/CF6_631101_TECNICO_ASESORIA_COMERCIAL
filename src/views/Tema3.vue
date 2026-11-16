@@ -7,7 +7,7 @@
         span 3
       h1 Satisfacción del cliente
 
-    .bloque-texto-g.bloque-texto-g--inverso.bg3.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.bloque-texto-g--inverso.bg3.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t3/img01.png')})`}"
       )
@@ -23,7 +23,7 @@
         img(src='@/assets/curso/temas/t1/ico.svg', alt='')
         h3.mb-1.mx-3 Acciones para fortalecer la satisfacción del cliente
 
-    .row.justify-content-center.mb-3.bg3.g-0
+    .row.justify-content-center.mb-3.bg3.g-0(data-aos="fade-left")
       .col-lg-6.p-0
         img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t3/img02.svg', alt='')
       .col-lg-6
@@ -78,7 +78,7 @@
                   img(src='@/assets/curso/temas/t3/2.svg', alt='')
             p Por su parte, la NTC-ISO 9001:2015 establece requisitos para implementar sistemas de gestión de la calidad orientados a proporcionar productos y servicios que cumplan las condiciones aplicables y contribuyan a incrementar la satisfacción del cliente.
     p Estas normas constituyen referentes para fortalecer la gestión organizacional y promover una cultura de calidad basada en el cumplimiento de requisitos, la evaluación de resultados y el mejoramiento continuo. En este sentido, las empresas deben disponer de canales de información y atención que faciliten la gestión de solicitudes de manera presencial o mediante herramientas tecnológicas. Asimismo, es necesario aplicar procedimientos de comunicación, gestión documental, protección de datos personales y atención de requerimientos, de acuerdo con las políticas institucionales y la normativa vigente.
-    p La evaluación de la satisfacción y el seguimiento a la experiencia del cliente permiten determinar acciones postventa fundamentadas en información verificable. Estas acciones contribuyen a resolver dificultades, prevenir su recurrencia y fortalecer las relaciones comerciales mediante una atención responsable, oportuna y orientada al mejoramiento continuo.
+    p(data-aos="fade-left") La evaluación de la satisfacción y el seguimiento a la experiencia del cliente permiten determinar acciones postventa fundamentadas en información verificable. Estas acciones contribuyen a resolver dificultades, prevenir su recurrencia y fortalecer las relaciones comerciales mediante una atención responsable, oportuna y orientada al mejoramiento continuo.
 
 
 

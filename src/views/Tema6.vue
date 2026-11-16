@@ -7,7 +7,7 @@
         span 6
       h1 Ciclo del servicio
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-12
         img(src='@/assets/curso/temas/t6/img01.png', alt='')
     p El ciclo del servicio es una herramienta que permite representar de manera secuencial las diferentes etapas e interacciones que experimenta un cliente durante su relación con una organización. Comprende los contactos que se presentan desde el acercamiento inicial hasta la atención posterior a la compra, facilitando la identificación de situaciones que influyen en la calidad del servicio.
@@ -18,8 +18,8 @@
         h3.mb-1.mx-3 Etapas del ciclo del servicio
     p Aunque las etapas pueden variar según la actividad económica y las características de la organización, generalmente comprenden:
 
-    .row.justify-content-center.mb-4
-      .col-lg-6.mb-3 
+    .row.justify-content-center.mb-4(data-aos="fade-left")
+      .col-lg-6.mb-3.col-10.col-md-8
         img(src='@/assets/curso/temas/t6/img02.png', alt='')
       .col-lg-6
         LineaTiempoD.color-primario
@@ -51,9 +51,9 @@
             .col-md-12.mb-4.mb-md-0
               p Evaluación de la satisfacción y desarrollo de acciones orientadas a fortalecer la relación comercial.
 
-    p Para elaborar el ciclo del servicio, la organización debe identificar los puntos de contacto, organizarlos según la secuencia que experimenta el cliente y analizar los resultados de cada interacción. Esta herramienta permite reconocer las situaciones que afectan la experiencia del consumidor y establecer medidas para fortalecer los procedimientos de atención.
+    p(data-aos="fade-left") Para elaborar el ciclo del servicio, la organización debe identificar los puntos de contacto, organizarlos según la secuencia que experimenta el cliente y analizar los resultados de cada interacción. Esta herramienta permite reconocer las situaciones que afectan la experiencia del consumidor y establecer medidas para fortalecer los procedimientos de atención.
 
-    .cajon.color-acento-contenido.p-4.mb-4
+    .cajon.color-acento-contenido.p-4.mb-4(data-aos="fade-left")
       h5 Ejemplo
       p.mb-0 En una tienda de tecnología, el ciclo puede iniciar cuando un cliente solicita información sobre un computador, continuar con la asesoría, la compra y la entrega del equipo, y finalizar con el seguimiento a su funcionamiento y la atención de posibles solicitudes de garantía.
 

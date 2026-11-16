@@ -7,7 +7,7 @@
         span 7
       h1 Triángulo del servicio
 
-    .bloque-texto-g.bg4.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.bg4.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t7/img01.png')})`}"
       )
@@ -23,7 +23,7 @@
     p El triángulo del servicio se caracteriza por integrar los elementos que participan en la atención y orientar su funcionamiento hacia la satisfacción del cliente.
     p Entre sus principales características se encuentran:
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-8.mb-3 
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Enfoque en el cliente")
@@ -45,7 +45,7 @@
           .row(titulo="Mejoramiento continuo")
             .col-md-12.mb-4.mb-md-0
               p.mb-0 Facilita la identificación de dificultades y el establecimiento de acciones correctivas y de mejora.   
-      .col-lg-4
+      .col-lg-4.col-9.col-md-7
         img(src='@/assets/curso/temas/t7/img02.png', alt='')
 
     .subt.mb-4(data-aos='fade-right')
@@ -64,7 +64,7 @@
           h4.text-center Estrategia de servicio
           p.mb-0 Comprende las políticas, los objetivos y las acciones que establece la organización para proporcionar experiencias satisfactorias. Define cómo se prestará el servicio y cuáles serán los compromisos asumidos con los clientes.
 
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta--boton.color-primario.p-4.h-100
           .row.justify-content-center.mb-0
             .col-7.col-lg-5.mb-2
@@ -81,7 +81,7 @@
           h4.text-center Sistemas de servicio
           p.mb-0 Incluyen los procedimientos, recursos tecnológicos, canales de comunicación y herramientas que facilitan la prestación del servicio y permiten cumplir los compromisos adquiridos. El cliente ocupa el centro del modelo, debido a que sus necesidades y expectativas orientan la articulación de estos tres elementos.
 
-    p Por ejemplo, una empresa que ofrece ventas por internet debe contar con una estrategia de atención clara, asesores capacitados y sistemas que permitan registrar pedidos, gestionar entregas y atender reclamaciones. La coordinación de estos elementos contribuye a proporcionar una experiencia satisfactoria.
+    p(data-aos="fade-left") Por ejemplo, una empresa que ofrece ventas por internet debe contar con una estrategia de atención clara, asesores capacitados y sistemas que permitan registrar pedidos, gestionar entregas y atender reclamaciones. La coordinación de estos elementos contribuye a proporcionar una experiencia satisfactoria.
 
 
 
