@@ -41,7 +41,7 @@
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: #fff !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
+  color: #12263F !important
 figcaption 
     font-weight: normal !important
 
@@ -137,7 +137,46 @@ figcaption
   background-color: #B5F0FF
 .bg2
   background-color: #FBF7CD
+.bg3
+  background-color: #CCDCE0
+.bg4
+  background-color: #AEA3BE
+.acordion__accion__btn--b
+  background-color: #FFD633 !important
+.acordion .tarjeta--azul
+  background-color: #AEA3BE !important
+  .acordion__titulo h3
+    color: #12263F !important
+  &.acordion__activo
+    .acordion__titulo h3
+      color: #12263F !important
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #ECFBFF !important
+------------------------------------------------
 
+.tarjeta--boton 
+  border-radius: 20px
+  background-color: #B5F0FF
+.tarjeta--boton.color-primario:active, .tarjeta--boton.color-primario:focus, .tarjeta--boton.color-primario:hover
+  background-color: #FBF7CD
+  h4, p
+    color: #12263F
+.tarjeta.color-primario * 
+  color: #12263F
+.fa-angle-right2
+  content: url('../assets/curso/temas/t3/emo.svg')
+  align-self: flex-start !important
+  width: 11px
+.lista-ul--color li 
+  display: flex
+  align-items: flex-start !important
+.tarjeta.color-primario * 
+  color: #12263F
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: #12263F
+  font-style: normal !important
+.tarjeta-audio.color-acento-botones .tarjeta-audio__input input[type=range] 
+  background: #EAEDF8
 
 .fa-chevron-right 
   --fa: "\f054"
@@ -164,6 +203,18 @@ figcaption
     overflow: auto
     text-overflow: initial
     text-wrap: auto
+.linea-tiempo-d.color-primario .linea-tiempo-d__item__number
+  background-color: #AEA3BE !important
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item__content
+    background-color: #AEA3BE !important
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FFD633 !important
+  color: #12263F
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+    background-color: #FBF7CD !important
 
 /**************************************************************/
 /*Media Queries*/  
